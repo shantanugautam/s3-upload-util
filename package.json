@@ -1,14 +1,11 @@
 {
-  "name": "offers-s3-uploader",
-  "version": "1.0.0",
-  "description": "Simple s3 uploading utility",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Shantanu Gautam",
-  "license": "ISC",
-  "dependencies": {
+    "name": "offers-s3-uploader",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Simple s3 uploading utility",
+    "author": "Shantanu Gautam",
+    "license": "ISC",
+    "dependencies": {
     "aws-sdk": "^2.1.45",
     "ejs": "^2.3.3",
     "express": "^4.13.3"
